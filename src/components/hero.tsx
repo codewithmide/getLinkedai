@@ -83,7 +83,7 @@ const Hero:React.FC = () => {
                         <div className="relative w-[670px]">
                             <img src="/images/man.png" alt="man" className="object-contain" />
                             <div className="absolute top-[0%] right-[10%]">
-                                <img src="/images/glowball.png" alt="blue bulb" />
+                                <img src="/images/glowBall.png" alt="blue bulb" />
                             </div>
                         </div>
                     </div>
