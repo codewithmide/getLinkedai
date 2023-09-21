@@ -1,27 +1,100 @@
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@400,700,500,600,1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Unica+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.clash {
+  font-family: 'Clash Display', sans-serif;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.unica {
+  font-family: 'Unica One', cursive;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.ended {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.buttonStyle {
+  border-radius: 4px;
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+
+.purpleFlare1 {
+  background-blend-mode: hard-light;
+}
+
+.medal1 {
+  width: 200px;
+  height: 347px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #903AFF;
+  background: rgba(144, 58, 255, 0.12);
+}
+
+.medal2, .medal3 {
+  width: 200px;
+  height: 296px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #D434FE;
+  background: rgba(212, 52, 254, 0.12);
+}
+
+.partnerContainer {
+  border-radius: 5px;
+  border: 1px solid #D434FE;
+  background: rgba(255, 255, 255, 0.01);
+}
+
+.update {
+  color: rgba(255, 255, 255, 0.75)
+}
+
+.privacy {
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #D434FE;
+  background: rgba(217, 217, 217, 0.03);
+}
+
+.timeline {
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
 }
