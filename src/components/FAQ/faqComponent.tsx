@@ -26,7 +26,7 @@ const FaqItem:React.FC<FaqItemProps> = ({ question, answer }) => {
   return (
     <div className="w-full flex flex-col border-b-purple border-b">
       <button className="flex justify-between w-full align-center py-5" onClick={toggleOpen}>
-        <span className="font-medium text-left text-[14px]">{question}</span>
+        <span className="font-medium text-left lg:text-[14px] text-sm w-[90%]">{question}</span>
         <img src="/images/plus.png" alt='arrowDown' className={`my-auto transform transition-transform ${isOpen ? 'rotate-180' : 'rotate-0'}`} />
       </button>
       <div className={`${isOpen ? 'block' : 'hidden'}`}>
