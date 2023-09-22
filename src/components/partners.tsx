@@ -64,13 +64,13 @@ const Partners:React.FC = () => {
                 <img src="/images/partnerFlare2.png" alt="purple flare" className="purpleFlare1" />
             </div>
             <div className="absolute top-[25%] left-[15%]">
-                <img src="/images/prizeStarTL.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/prizeStarTL.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
             <div className="absolute top-[40%] right-[42%]">
-                <img src="/images/prizeStarTL.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/prizeStarTL.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
             <div className="absolute bottom-[20%] right-[42%]">
-                <img src="/images/prizeStarTR.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/prizeStarTR.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
         </div>
     );

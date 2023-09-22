@@ -20,7 +20,7 @@ const Judging:React.FC = () => {
                 {/* Left side of the screen */}
                 <div className="lg:w-1/2 lg:h-[80%] w-full h-full flex flex-col justify-center relative">
                     <div className="left-[8rem] lg:-top-28 top-0 absolute">
-                        <img src="/images/judgeStar1.png" alt="star" className="lg:w-[30px] w-[10px]" />
+                        <img src="/images/judgeStar1.png" alt="star" className="xl:w-[30px] w-[10px]" />
                     </div>
                     <div className="md:h-[550px] sm:h-[275px] z-50 relative">
                         <div className="w-full h-[80%] absolute top-10" style={{ backgroundImage: "url('/images/judges.png')", backgroundPosition: "center center", backgroundSize: "contain", backgroundRepeat: "no-repeat"}}></div>
@@ -36,7 +36,7 @@ const Judging:React.FC = () => {
                     <h1 className="font-bold clash md:text-lg text-[20px] md:w-[270px] w-[167px] text-center lg:text-left">
                     Judging Criteria <span className="text-purple">Key attributes</span>
                     </h1>
-                    <ul className="lg:w-[535px] flex flex-col lg:items-start items-center gap-5">
+                    <ul className="xl:w-[535px] flex flex-col lg:items-start items-center gap-5">
                         {Criterias.map((criteria, index) => (
                             <li key={index}>
                                 <p className="lg:text-[14px] text-sm lg:text-left text-center"><span className="text-[#FF26B9] font-bold lg:text-[16px] text-sm">{criteria.title}</span> {criteria.description}</p>

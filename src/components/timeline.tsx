@@ -29,7 +29,7 @@ const Timeline:React.FC = () => {
                             <h2 className="font-bold text-[24px] text-purple text-right">
                                 Hackathon Announcement
                             </h2>
-                            <p className="text-right leading-[23.9px] text-[14px] w-[415px]">
+                            <p className="text-right leading-[23.9px] text-[14px] xl:w-[415px]">
                                 The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register
                             </p>
                         </div>
@@ -96,7 +96,7 @@ const Timeline:React.FC = () => {
                             <h2 className="font-bold text-[24px] text-purple text-left">
                                 Teams Registration begins
                             </h2>
-                            <p className="text-left leading-[23.9px] text-[14px] w-[485px]">
+                            <p className="text-left leading-[23.9px] text-[14px] xl:w-[485px]">
                                 Interested teams can now show their interest in the getlinked tech hackathon 1.0 2023 by proceeding to register
                             </p>
                         </div>
@@ -112,7 +112,7 @@ const Timeline:React.FC = () => {
                             <h2 className="font-bold text-[20px] text-purple text-left">
                                 Announcement of the accepted teams and ideas
                             </h2>
-                            <p className="text-left leading-[23.9px] text-[14px] w-[481px]">
+                            <p className="text-left leading-[23.9px] text-[14px] xl:w-[481px]">
                                 All teams whom idea has been accepted into getlinked tech hackathon 1.0 2023 are formally announced
                             </p>
                         </div>
@@ -127,7 +127,7 @@ const Timeline:React.FC = () => {
                             <h2 className="font-bold text-[24px] text-purple text-left">
                                 Demo day
                             </h2>
-                            <p className="text-left leading-[23.9px] text-[14px] w-[481px]">
+                            <p className="text-left leading-[23.9px] text-[14px] xl:w-[481px]">
                                 Teams get the opportunity to pitch their projects to judges. The winner of the hackathon will also be announced on this day
                             </p>
                         </div>

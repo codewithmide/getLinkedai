@@ -44,7 +44,7 @@ const Privacy:React.FC = () => {
                                 <div className="flex items-start justify-start h-full">
                                     <img src="/svgs/listTerms.svg" alt="list" className=""/>
                                 </div>
-                                <div className="text-sm text-left">
+                                <div className="text-sm w-full text-left">
                                     The Standard License grants you a non-exclusive right to navigate and register for our event
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ const Privacy:React.FC = () => {
                                 <div className="flex items-start justify-start h-full">
                                     <img src="/svgs/listTerms.svg" alt="list" className=""/>
                                 </div>
-                                <div className="text-sm text-left">
+                                <div className="text-sm w-full text-left">
                                     You are licensed to use the item available at any free source sites, for your project developement
                                 </div>
                             </div>
@@ -76,25 +76,25 @@ const Privacy:React.FC = () => {
                 <img src="/images/privacyFlare.png" alt="purple flare" className="purpleFlare1" />
             </div>
             <div className="absolute bottom-[20%] left-[5%]">
-                <img src="/images/prizeStarTL.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/prizeStarTL.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
             <div className="absolute left-[35%] top-[13%]">
-                <img src="/images/privacyStarTL.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/privacyStarTL.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
             <div className="absolute top-[20%]">
-                <img src="/images/privacyStarM3.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/privacyStarM3.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
             <div className="absolute top-[20%] right-[15rem]">
-                <img src="/images/privacyStaTR.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/privacyStaTR.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
             <div className="absolute bottom-[27%] right-[5%]">
-                <img src="/images/privacyStarLR.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/privacyStarLR.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
             <div className="absolute bottom-[30%] right-[34rem]">
-                <img src="/images/privacyStarM.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/privacyStarM.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
             <div className="absolute bottom-[26rem] right-[30rem]">
-                <img src="/images/privacyStarM2.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/privacyStarM2.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
         </div>
     );

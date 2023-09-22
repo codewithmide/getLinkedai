@@ -35,49 +35,49 @@ const Prizes:React.FC = () => {
                     </div>
                     <div className="center gap-3 w-[90%] lg:w-full">
                         <div className="flex-col center flex relative w-[32%]">
-                            <div className="absolute lg:-top-24 -top-14" >
+                            <div className="absolute lg:-top-24 md:-top-[7rem] -top-10" >
                                 <img src="/images/silverMedal.png" alt="medal" />
                             </div>
-                            <div className="medal2 flex items-center justify-end flex-col md:w-[200px] md:h-[260px] h-[125px] lg:p-0 p-2 md:p-4">
+                            <div className="medal2 flex items-center justify-end flex-col lg:w-full md:w-[200px] w-full md:h-[290px] h-[125px] lg:p-0 p-2 md:p-4">
                                 <h2 className="font-bold leading-none text-sm md:text-[40px]">
                                     2nd
                                 </h2>
                                 <h3 className="md:text-lg font-semibold text-sm leading-none">
                                     Runner
                                 </h3>
-                                <h3 className="font-bold md:text-[32px] text-[14px] text-purple lg:leading-[69.248px] leading-[30.296px] lg:mb-3">
+                                <h3 className="font-bold md:text-[32px] lg:text-md text-[14px] text-purple lg:leading-[69.248px] leading-[30.296px] lg:mb-3">
                                     N300,000
                                 </h3>
                             </div>
                         </div>
                         <div className="flex-col center flex relative w-[32%]">
-                            <div className="absolute lg:-top-32 -top-14">
+                            <div className="absolute lx:-top-[9rem] md:-top-[7rem] -top-10">
                                 <img src="/images/goldMedal.png" alt="medal" />
                             </div>
-                            <div className="medal1 flex items-center justify-end flex-col md:w-[200px] md:h-[300px] h-[147px] lg:p-0 p-2 md:p-4">
+                            <div className="medal1 flex items-center justify-end flex-col lg:w-full md:w-[200px] w-full md:h-[320px] h-[147px] lg:p-0 p-2 md:p-4">
                                 <h2 className="font-bold leading-none text-sm md:text-[40px]">
                                     1st
                                 </h2>
                                 <h3 className="md:text-lg font-semibold text-sm leading-none">
                                     Runner
                                 </h3>
-                                <h3 className="font-bold md:text-[32px] text-[14px] text-[#903AFF] lg:leading-[69.248px] leading-[30.296px] lg:mb-3">
+                                <h3 className="font-bold md:text-[32px] text-[14px] lg:text-md text-[#903AFF] lg:leading-[69.248px] leading-[30.296px] lg:mb-3">
                                     N400,000
                                 </h3>
                             </div>
                         </div>
                         <div className="flex-col center flex relative w-[32%]">
-                            <div className="absolute lg:-top-24 -top-14">
+                            <div className="absolute lg:-top-24 md:-top-[7rem] -top-10">
                                 <img src="/images/bronzeMedal.png" alt="medal"  />
                             </div>
-                            <div className="medal3 flex items-center justify-end flex-col md:w-[200px] md:h-[260px] h-[125px] lg:p-0 p-2 md:p-4">
+                            <div className="medal3 flex items-center justify-end flex-col lg:w-full md:w-[200px] w-full md:h-[290px] h-[125px] lg:p-0 p-2 md:p-4">
                                 <h2 className="font-bold leading-none text-sm md:text-[40px]">
                                     3rd
                                 </h2>
                                 <h3 className="md:text-lg font-semibold text-sm leading-none mb-1">
                                     Runner
                                 </h3>
-                                <h3 className="font-bold md:text-[32px] text-[14px] text-purple lg:leading-[69.248px] leading-[30.296px] lg:mb-3">
+                                <h3 className="font-bold md:text-[32px] text-[14px] lg:text-md text-purple lg:leading-[69.248px] leading-[30.296px] lg:mb-3">
                                     N150,000
                                 </h3>
                             </div>

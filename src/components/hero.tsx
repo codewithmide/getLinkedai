@@ -26,7 +26,7 @@ const Hero:React.FC = () => {
             </div>
             <div className="w-full flex flex-col lg:flex-row justify-between lg:pt-6">
                 {/* Left part of the screen */}
-                <div className="lg:h-[550px] flex flex-col lg:items-start items-center w-full xl:ml-20 z-30 lg:pt-3">
+                <div className="lg:h-[550px] flex flex-col lg:items-start items-center w-full xl:ml-20 lg:ml-12 z-30 lg:pt-3">
                     {/* First star */}
                     <div className="lg:pl-10 pl-16 w-full">
                         <img src="/images/heroStar1.png" alt="hero star 1" className="lg:w-[26px] md:w-[18px] w-[10px]"/>
@@ -51,7 +51,7 @@ const Hero:React.FC = () => {
                                 <img src="/images/heroLight.png" alt="star" className="lg:w-[70px] md:w-[40px] w-[22px]" />
                             </div>
                         </div>
-                        <p className="lg:leading-[32.2px] font-semibold lg:text-[19.5px] text-[13px] xl:w-[522px] w-[280px] md:w-[380px] lg:text-left text-center mt-3 mb-8">
+                        <p className="lg:leading-[32.2px] font-semibold lg:text-[19.5px] text-[13px] xl:w-[522px] lg:w-full w-[280px] md:w-[380px] lg:text-left text-center mt-3 mb-8">
                             Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize
                         </p>
                         <div>
@@ -78,10 +78,10 @@ const Hero:React.FC = () => {
                 </div>
 
                 {/* Right part of the screen */}
-                <div className="flex-col flex z-30">
+                <div className="flex-col flex z-30 xl:w-full lg:w-1/2">
                     <div className="flex flex-col gap-6 md:items-center">
                         <div className="flex-col mr-20 lg:flex hidden">
-                            <h3 className="italic text-lg leading-none font-semibold text-right">
+                            <h3 className="italic xl:text-lg lg:text-md leading-none font-semibold text-right">
                                 Igniting a Revolution in HR Innovation
                             </h3>
                             <div className="ended">

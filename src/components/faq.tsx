@@ -19,7 +19,7 @@ const Faq:React.FC = () => {
                 {/* Left side of the screen */}
                 <div className="lg:w-1/2 flex flex-col items-center lg:items-start gap-6 relative">
                     <div className="absolute lg:-top-10 -top-4 left-0">
-                        <img src="/images/judgeStar1.png" alt="star" className="lg:w-[30px] w-[15px]" />
+                        <img src="/images/judgeStar1.png" alt="star" className="xl:w-[30px] w-[15px]" />
                     </div>
                     <FAQ />
                 </div>
@@ -30,7 +30,7 @@ const Faq:React.FC = () => {
                         <img src="/images/thinking.png" alt="star" className="h-full w-full object-contain"/>
                     </div>
                     <div className="absolute right-10 lg:right-20 bottom-0">
-                        <img src="/images/rulesStar2.png" alt="star" className="lg:w-[30px] w-[15px]"  />
+                        <img src="/images/rulesStar2.png" alt="star" className="xl:w-[30px] w-[15px]"  />
                     </div>
                     <div className="absolute lg:top-[3rem] lg:right-[18rem] top-4 right-[50%]">
                         <img src="/images/footerM.png" alt="star" className="lg:w-[20px] w-[8px]"/>

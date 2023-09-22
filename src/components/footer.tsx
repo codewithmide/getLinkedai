@@ -92,16 +92,16 @@ const Footer:React.FC = () => {
                 <img src="/images/privacyFlare.png" alt="purple flare" className="purpleFlare1" />
             </div>
             <div className="absolute left-10 top-20 hidden md:flex">
-                <img src="/images/footerTL.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/footerTL.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
             <div className="absolute right-20 bottom-20">
-                <img src="/images/footerBR.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/footerBR.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
             <div className="absolute bottom-20">
-                <img src="/images/footerM.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/footerM.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
             <div className="absolute right-[20rem] top-20">
-                <img src="/images/footerTR.png" alt="purple flare" className="purpleFlare1 lg:w-[30px] w-[12px]" />
+                <img src="/images/footerTR.png" alt="purple flare" className="purpleFlare1 xl:w-[30px] w-[12px]" />
             </div>
         </div>
     );
