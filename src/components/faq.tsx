@@ -14,7 +14,7 @@ import FAQ from "./FAQ/page";
 
 const Faq:React.FC = () => {
     return (
-        <div className="border-b w-full border-b-lightGray center relative overflow-hidden min-h-screen lg:py-[5rem]">
+        <div className="border-b w-full border-b-lightGray center relative overflow-hidden min-h-screen">
             <div className="w-[85%] h-full between py-20 flex-col lg:flex-row lg:gap-0 gap-10">
                 {/* Left side of the screen */}
                 <div className="lg:w-1/2 flex flex-col items-center lg:items-start gap-6 relative">
@@ -25,9 +25,11 @@ const Faq:React.FC = () => {
                 </div>
 
                 {/* Right side of the screen */}
-                <div className="lg:w-1/2 flex flex-col justify-center relative">
-                    <img src="/images/thinking.png" alt="star" className="h-full object-contain" />
-                    <div className="absolute right-10 lg:right-20 lg:-bottom-10 bottom-0">
+                <div className="lg:w-1/2 flex flex-col justify-center relative h-[327px] md:h-[741px]">
+                    <div className="w-full h-full center">
+                        <img src="/images/thinking.png" alt="star" className="h-full w-full object-contain"/>
+                    </div>
+                    <div className="absolute right-10 lg:right-20 bottom-0">
                         <img src="/images/rulesStar2.png" alt="star" className="lg:w-[30px] w-[15px]"  />
                     </div>
                     <div className="absolute lg:top-[3rem] lg:right-[18rem] top-4 right-[50%]">
