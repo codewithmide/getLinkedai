@@ -25,7 +25,7 @@ const Faq:React.FC = () => {
                 </div>
 
                 {/* Right side of the screen */}
-                <div className="lg:w-1/2 h-full flex flex-col justify-center relative">
+                <div className="lg:w-1/2 flex flex-col justify-center relative">
                     <img src="/images/thinking.png" alt="star" className="h-full object-contain" />
                     <div className="absolute right-10 lg:right-20 lg:-bottom-10 bottom-0">
                         <img src="/images/rulesStar2.png" alt="star" className="lg:w-[30px] w-[15px]"  />
