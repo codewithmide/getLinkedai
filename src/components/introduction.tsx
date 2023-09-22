@@ -11,7 +11,7 @@
 
 const Introduction:React.FC = () => {
     return (
-        <div className="w-full border-b border-b-lightGray center">
+        <div className="w-full border-b border-b-lightGray center" id="overview">
             <div className="w-[85%] between lg:flex-row flex-col py-10 sm:gap-10">
                 {/* Left side of the screen */}
                 <div className="center lg:w-1/2 w-full lg:h-[477px] sm:h-[257px] relative">

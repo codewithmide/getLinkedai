@@ -14,6 +14,7 @@ import { useState } from "react";
 import CustomButton from "./Button/button";
 
 import Logo from "./Logo/logo";
+import Link from "next/link";
 
 const Navbar:React.FC = () => {
     const [open, setOpen] = useState(false);
@@ -28,10 +29,18 @@ const Navbar:React.FC = () => {
                 <Logo />
                 <div className="lg:flex gap-[5rem] hidden">
                     <ul className="center gap-10 text-normal font-medium">
-                        <li className="hover:text-purple duration-300 transition-all cursor-pointer">Timeline</li>
-                        <li className="hover:text-purple duration-300 transition-all cursor-pointer">Overview</li>
-                        <li className="hover:text-purple duration-300 transition-all cursor-pointer">FAQs</li>
-                        <li className="hover:text-purple duration-300 transition-all cursor-pointer">Contact</li>
+                        <Link href="#timeline">
+                            <li className="hover:text-purple duration-300 transition-all cursor-pointer">Timeline</li>
+                        </Link>
+                        <Link href="#overview">
+                            <li className="hover:text-purple duration-300 transition-all cursor-pointer">Overview</li>
+                        </Link>
+                        <Link href="#faq">
+                            <li className="hover:text-purple duration-300 transition-all cursor-pointer">FAQs</li>
+                        </Link>
+                        <Link href="#">
+                            <li className="hover:text-purple duration-300 transition-all cursor-pointer">Contact</li>
+                        </Link>
                     </ul>
                     <div className="">
                         <CustomButton 
@@ -44,7 +53,7 @@ const Navbar:React.FC = () => {
                     <img src="/svgs/menu.svg" alt="menu" onClick={handleMenu} />
                 </div>
                 {open && (
-                    <div className="absolute top-0 left-0 w-screen h-[492px] bg-darkBlue text-white flex flex-col items-center gap-10 py-6 z-50">
+                    <div className="absolute top-0 left-0 w-screen h-screen bg-darkBlue text-white flex flex-col items-center gap-10 py-6 z-50">
                         <div className="w-[85%] ended">
                             <div className="border-purple border rounded-full p-2" onClick={handleMenu}>
                                 <img src="/svgs/close.svg" alt="close" />
@@ -52,10 +61,18 @@ const Navbar:React.FC = () => {
                         </div>
                         <div className="gap-10 flex flex-col ml-10 w-full items-start">
                             <ul className="flex flex-col gap-3 text-normal font-medium">
-                                <li className="hover:text-purple duration-300 transition-all cursor-pointer">Timeline</li>
-                                <li className="hover:text-purple duration-300 transition-all cursor-pointer">Overview</li>
-                                <li className="hover:text-purple duration-300 transition-all cursor-pointer">FAQs</li>
-                                <li className="hover:text-purple duration-300 transition-all cursor-pointer">Contact</li>
+                                <Link href="#timeline">
+                                    <li className="hover:text-purple duration-300 transition-all cursor-pointer">Timeline</li>
+                                </Link>
+                                <Link href="#overview">
+                                    <li className="hover:text-purple duration-300 transition-all cursor-pointer">Overview</li>
+                                </Link>
+                                <Link href="#faq">
+                                    <li className="hover:text-purple duration-300 transition-all cursor-pointer">FAQs</li>
+                                </Link>
+                                <Link href="#">
+                                    <li className="hover:text-purple duration-300 transition-all cursor-pointer">Contact</li>
+                                </Link>
                             </ul>
                             <div className="">
                                 <CustomButton 

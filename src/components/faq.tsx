@@ -14,8 +14,8 @@ import FAQ from "./FAQ/page";
 
 const Faq:React.FC = () => {
     return (
-        <div className="border-b w-full border-b-lightGray center relative overflow-hidden min-h-screen">
-            <div className="w-[85%] h-full between py-20 flex-col lg:flex-row lg:gap-0 gap-10">
+        <div className="border-b w-full border-b-lightGray center relative overflow-hidden min-h-screen" id="faq">
+            <div className="w-[85%] h-full between py-20 flex-col lg:flex-row lg:gap-0 gap-10 z-20">
                 {/* Left side of the screen */}
                 <div className="lg:w-1/2 flex flex-col items-center lg:items-start gap-6 relative">
                     <div className="absolute lg:-top-10 -top-4 left-0">

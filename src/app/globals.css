@@ -10,6 +10,10 @@ html, body {
   overflow-x: hidden;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 .clash {
   font-family: 'Clash Display', sans-serif;
 }
@@ -61,8 +65,6 @@ html, body {
 }
 
 .medal1 {
-  width: 200px;
-  height: 347px;
   flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid #903AFF;
@@ -70,8 +72,6 @@ html, body {
 }
 
 .medal2, .medal3 {
-  width: 200px;
-  height: 296px;
   flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid #D434FE;

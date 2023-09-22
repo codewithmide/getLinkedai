@@ -13,7 +13,7 @@ import Link from "next/link";
 const Logo:React.FC = () => {
     return (
         <Link href="/">
-             <div className="font-bold clash md:text-[24px] lg:text-[32px] cursor-pointer text-normal">
+             <div className="font-bold clash md:text-[24px] lg:text-[32px] cursor-pointer text-[20px]">
             get<span className="text-purple">linked</span>
             </div>
         </Link>

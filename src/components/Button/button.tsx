@@ -11,7 +11,7 @@ const CustomButton: React.FC<ButtonProps> = ({
         <button 
         onClick={onClick}
         disabled={disabled}
-        className="disabled:opacity-70 disabled:cursor-not-allowed rounded-[4px] hover:opacity-80 transition-all duration-300 py-3 px-10 buttonStyle">
+        className="disabled:opacity-70 disabled:cursor-not-allowed rounded-[4px] hover:opacity-80 transition-all duration-300 py-3 px-10 buttonStyle md:text-normal text-sm">
             {label}
         </button>
     );

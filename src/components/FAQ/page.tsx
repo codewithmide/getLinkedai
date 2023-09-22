@@ -18,7 +18,7 @@ export default function FAQ() {
             <p className="lg:w-[342px] lg:text-[14px] lg:leading-[27.5px] text-center lg:text-left text-sm">
                 We got answers to the questions that you might want to ask about getlinked Hackathon 1.0
             </p>
-            <div className="lg:w-10/12">
+            <div className="lg:w-10/12 w-full">
                 <div className="w-full flex flex-col items-center justify-center">
                     <FaqItem
                         question="Can I work on a project I started before the hackathon?"
