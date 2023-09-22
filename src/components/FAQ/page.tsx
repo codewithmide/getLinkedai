@@ -11,14 +11,14 @@ import FaqItem from "./faqComponent";
 
 export default function FAQ() {
     return (
-        <div className="flex flex-col items-start gap-6 w-full">
-            <h1 className="font-bold clash text-lg w-[380px]">
+        <div className="flex flex-col lg:items-start items-center gap-6 w-full">
+            <h1 className="font-bold clash lg:w-[380px] text-center lg:text-left md:text-lg text-[20px] md:w-[390px] w-[249px]">
                 Frequently Asked <span className="text-purple">Question</span>
             </h1>
-            <p className="w-[342px] text-[14px] leading-[27.5px]">
+            <p className="lg:w-[342px] lg:text-[14px] lg:leading-[27.5px] text-center lg:text-left text-sm">
                 We got answers to the questions that you might want to ask about getlinked Hackathon 1.0
             </p>
-            <div className="w-10/12">
+            <div className="lg:w-10/12">
                 <div className="w-full flex flex-col items-center justify-center">
                     <FaqItem
                         question="Can I work on a project I started before the hackathon?"
