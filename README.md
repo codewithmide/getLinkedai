@@ -1,10 +1,10 @@
-![Banner](https://github.com/codewithmide/getLinkedai/blob/main/public/icons/opengraph-image.png)
+![Banner](https://github.com/codewithmide/getLinkedai/blob/fd27d341da076a21d1cba55da93237de61971ca0/public/images/opengraph-image.png)
 
 # GetLinkedAI
 
 ## Overview
 
-GetLinkedAI is a place where **Dreams Meet Opportunities** for a Perfect Match!. It helps with connecting exceptional talents with forward-thinking employers, and it offers a harmonious synergy that breeds success. You can [access the live demo here](https://get-linkedai.vercel.app/) or explore the [GitHub repository](https://github.com/codewithmide/getLinkedai) for more details.
+GetLinkedAI is a place where **Dreams Meet Opportunities** for a Perfect Match!. It helps with connecting exceptional talents with forward-thinking employers, and it offers a harmonious synergy that breeds success. You can [access the hackathon challenge live demo here](https://get-linkedai.vercel.app/) or explore the [GitHub repository](https://github.com/codewithmide/getLinkedai) for more details.
 
 ## Table of Contents
 
