@@ -1,6 +1,8 @@
-![Banner](https://github.com/codewithmide/getLinkedai/blob/fd27d341da076a21d1cba55da93237de61971ca0/public/images/opengraph-image.png)
-
 # GetLinkedAI
+
+[![wakatime](https://wakatime.com/badge/user/fa7f7dfa-31c0-4185-8964-8be612dd48ed/project/bf5b7806-99c6-405b-a2de-952c2140a4aa.svg)](https://wakatime.com/badge/user/fa7f7dfa-31c0-4185-8964-8be612dd48ed/project/bf5b7806-99c6-405b-a2de-952c2140a4aa)
+
+![Banner](https://github.com/codewithmide/getLinkedai/blob/fd27d341da076a21d1cba55da93237de61971ca0/public/images/opengraph-image.png)
 
 ## Overview
 
@@ -13,8 +15,7 @@ GetLinkedAI is a place where **Dreams Meet Opportunities** for a Perfect Match!.
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contact](#contact)
 
 ## Challenges
 
@@ -32,7 +33,6 @@ I overcame these challenges by:
 
 - **CSS Practice:** I dedicated time to practicing and improving my CSS skills, experimenting with Tailwind CSS's utility classes, and referring to Tailwind CSS documentation and tutorials.
 
-
 ## Lessons Learned
 
 Working on GetLinkedAI hackathon challenge provided me with valuable lessons and insights, including:
@@ -41,7 +41,6 @@ Working on GetLinkedAI hackathon challenge provided me with valuable lessons and
 
 - **Effective Library Integration:** I learned the importance of in-depth library exploration and proper integration, which enhanced my project's overall quality and efficiency.
   
-
 ## Technologies Used
 
 The application is built using various technologies and libraries, each serving a specific purpose:
@@ -62,9 +61,34 @@ The application is built using various technologies and libraries, each serving 
 
 To run the app locally, follow these steps:
 
-
-
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+
+```bash
+    git clone https://github.com/codewithmide/getLinkedai.git
+    cd your-repo
+```
+
+1. Install dependencies:
+
+```bash
+    npm install
+```
+
+1. Start the development server:
+
+```bash
+    npm run dev
+```
+
+## Usage
+
+You can access the live demo to interact with application by accessing this url in your browser. Feel free to explore its features and functionalities.
+
+```web
+https://localhost:3000
+```
+
+## Contact
+
+Email: <codewithmide@gmail.com>
+X: <https://twitter.com/Olumide______>
