@@ -11,12 +11,11 @@
 "use client"
 
 import { useState } from "react";
-import CustomButton from "./Button/button";
-
-import Logo from "./Logo/logo";
+import CustomButton from "@/components/Button/button";
+import Logo from "@/components/Logo/logo";
 import Link from "next/link";
 
-const Navbar:React.FC = () => {
+const ContactNavbar:React.FC = () => {
     const [open, setOpen] = useState(false);
 
     const handleMenu = () => {
@@ -29,17 +28,17 @@ const Navbar:React.FC = () => {
                 <Logo />
                 <div className="lg:flex gap-[5rem] hidden">
                     <ul className="center gap-10 text-normal font-medium">
-                        <Link href="#timeline">
+                        <Link href="/#timeline">
                             <li className="hover:text-purple duration-300 transition-all cursor-pointer">Timeline</li>
                         </Link>
-                        <Link href="#overview">
+                        <Link href="/#overview">
                             <li className="hover:text-purple duration-300 transition-all cursor-pointer">Overview</li>
                         </Link>
-                        <Link href="#faq">
+                        <Link href="/#faq">
                             <li className="hover:text-purple duration-300 transition-all cursor-pointer">FAQs</li>
                         </Link>
                         <Link href="/contact">
-                            <li className="hover:text-purple duration-300 transition-all cursor-pointer">Contact</li>
+                            <li className="contact cursor-pointer">Contact</li>
                         </Link>
                     </ul>
                     <Link href="/register" className="">
@@ -61,20 +60,20 @@ const Navbar:React.FC = () => {
                         </div>
                         <div className="gap-10 flex flex-col ml-10 w-full items-start">
                             <ul className="flex flex-col gap-3 text-normal font-medium">
-                                <Link href="#timeline">
+                                <Link href="/#timeline">
                                     <li className="hover:text-purple duration-300 transition-all cursor-pointer">Timeline</li>
                                 </Link>
-                                <Link href="#overview">
+                                <Link href="/#overview">
                                     <li className="hover:text-purple duration-300 transition-all cursor-pointer">Overview</li>
                                 </Link>
-                                <Link href="#faq">
+                                <Link href="/#faq">
                                     <li className="hover:text-purple duration-300 transition-all cursor-pointer">FAQs</li>
                                 </Link>
-                                <Link href="/contact">
+                                <Link href="#">
                                     <li className="hover:text-purple duration-300 transition-all cursor-pointer">Contact</li>
                                 </Link>
                             </ul>
-                            <Link className="" href="/register">
+                            <Link href="/register" className="">
                                 <CustomButton 
                                     onClick={() => {}}
                                     label="Register"
@@ -88,4 +87,4 @@ const Navbar:React.FC = () => {
     );
 }
  
-export default Navbar;
+export default ContactNavbar;

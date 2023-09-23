@@ -1,5 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
   title: 'GetLinkedAI',
@@ -13,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="montserrat bg-darkBlue text-white">{children}</body>
+      <body className="montserrat bg-darkBlue text-white">
+        {children}
+        <Toaster/>
+      </body>
     </html>
   )
 }

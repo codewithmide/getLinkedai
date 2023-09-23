@@ -11,6 +11,7 @@
 
 "use client"
 
+import Link from "next/link";
 import CustomButton from "./Button/button";
 
 const Hero:React.FC = () => {
@@ -54,9 +55,12 @@ const Hero:React.FC = () => {
                         <p className="lg:leading-[32.2px] font-semibold lg:text-[19.5px] text-[13px] xl:w-[522px] lg:w-full w-[280px] md:w-[380px] lg:text-left text-center mt-3 mb-8">
                             Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize
                         </p>
-                        <div>
-                            <CustomButton onClick={() => {}} label="Register" />
-                        </div>
+                        <Link href="/register" className="">
+                            <CustomButton 
+                                onClick={() => {}}
+                                label="Register"
+                            />
+                        </Link>
                     </div>
 
                     <div className="w-[522px] items-end hidden">
