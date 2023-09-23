@@ -64,20 +64,20 @@ To run the app locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-    git clone https://github.com/codewithmide/getLinkedai.git
-    cd your-repo
+git clone https://github.com/codewithmide/getLinkedai.git
+cd your-repo
 ```
 
-1. Install dependencies:
+2. Install dependencies:
 
 ```bash
-    npm install
+npm install
 ```
 
-1. Start the development server:
+3. Start the development server:
 
 ```bash
-    npm run dev
+npm run dev
 ```
 
 ## Usage
@@ -90,5 +90,5 @@ https://localhost:3000
 
 ## Contact
 
-Email: <codewithmide@gmail.com>
-X: <https://twitter.com/Olumide______>
+- Email: <codewithmide@gmail.com>
+- X: <https://twitter.com/Olumide______>
