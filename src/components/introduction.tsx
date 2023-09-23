@@ -30,8 +30,8 @@ const Introduction:React.FC = () => {
 
                 {/* Right side of the screen */}
                 <div className="lg:w-1/2 w-full">
-                    <div className="flex items-start relative">
-                        <h1 className="font-bold clash md:text-lg text-[20px] md:w-[390px] lg:w-[400px] w-[249px] lg:text-left text-center">
+                    <div className="flex lg:items-start items-center relative w-full ">
+                        <h1 className="font-bold clash md:text-lg text-[20px] md:w-[400px] w-[249px] lg:text-left text-center">
                             Introduction to getlinked <span className="text-purple">tech Hackathon 1.0</span>
                         </h1>
                         <div className="absolute -right-3">
