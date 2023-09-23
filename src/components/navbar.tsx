@@ -10,7 +10,7 @@
 */
 "use client"
 
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import CustomButton from "./Button/button";
 
 import Logo from "./Logo/logo";
@@ -19,9 +19,9 @@ import Link from "next/link";
 const Navbar:React.FC = () => {
     const [open, setOpen] = useState(false);
 
-    const handleMenu = () => {
+    const handleMenu = useCallback(() => {
         setOpen(!open);
-    }
+    }, [open]);
     return (
         <nav className="w-full center py-6 border-b border-b-lightGray">
             <div className="xl:w-[90%] md:w-[95%] sm:w-[85%] between z-50">
