@@ -35,7 +35,7 @@ const Prizes:React.FC = () => {
                     </div>
                     <div className="center gap-3 w-[90%] lg:w-full">
                         <div className="flex-col center flex relative w-[32%]">
-                            <div className="absolute lg:-top-24 md:-top-[7rem] -top-10" >
+                            <div className="absolute lg:-top-24 md:-top-[7rem] -top-12" >
                                 <img src="/images/silverMedal.png" alt="medal" />
                             </div>
                             <div className="medal2 flex items-center justify-end flex-col lg:w-full md:w-[200px] w-full md:h-[290px] h-[125px] lg:p-0 p-2 md:p-4">
@@ -51,7 +51,7 @@ const Prizes:React.FC = () => {
                             </div>
                         </div>
                         <div className="flex-col center flex relative w-[32%]">
-                            <div className="absolute lx:-top-[9rem] md:-top-[7rem] -top-10">
+                            <div className="absolute lx:-top-[9rem] md:-top-[7rem] -top-12">
                                 <img src="/images/goldMedal.png" alt="medal" />
                             </div>
                             <div className="medal1 flex items-center justify-end flex-col lg:w-full md:w-[200px] w-full md:h-[320px] h-[147px] lg:p-0 p-2 md:p-4">
@@ -67,7 +67,7 @@ const Prizes:React.FC = () => {
                             </div>
                         </div>
                         <div className="flex-col center flex relative w-[32%]">
-                            <div className="absolute lg:-top-24 md:-top-[7rem] -top-10">
+                            <div className="absolute lg:-top-24 md:-top-[7rem] -top-12">
                                 <img src="/images/bronzeMedal.png" alt="medal"  />
                             </div>
                             <div className="medal3 flex items-center justify-end flex-col lg:w-full md:w-[200px] w-full md:h-[290px] h-[125px] lg:p-0 p-2 md:p-4">
