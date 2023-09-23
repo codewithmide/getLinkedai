@@ -88,12 +88,7 @@ const RegisterComp = () => {
         setTimeout(() => {
           toast.success("You have successfully registered");
         }, 1000);
-      };
-      
-
-    console.log("formik.isValid:", formik.isValid);
-    console.log("formik.errors:", formik.errors);
-
+    };
 
     return (
         <div className="w-full center relative overflow-hidden">
@@ -211,7 +206,7 @@ const RegisterComp = () => {
                                     type="checkbox"
                                     name="privacyPolicy"
                                     id="privacyPolicy"
-                                    className="my-auto"
+                                    className="my-auto w-[20px] h-[20px]"
                                     checked={formik.values.privacyPolicy}
                                     onChange={formik.handleChange} // Use formik.handleChange to update the state
                                     />

@@ -21,7 +21,6 @@ const Navbar:React.FC = () => {
 
     const handleMenu = () => {
         setOpen(!open);
-        console.log('open')
     }
     return (
         <nav className="w-full center py-6 border-b border-b-lightGray">
