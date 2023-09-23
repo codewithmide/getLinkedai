@@ -94,7 +94,7 @@ const Hero:React.FC = () => {
                         </div>
                         <div className="relative md:w-[670px] w-full">
                             <img src="/images/man.png" alt="man" className="object-contain" />
-                            <div className="absolute top-[0%] right-[10%]">
+                            <div className="absolute top-[0%] right-[10%] beep">
                                 <img src="/images/glowBall.png" alt="blue bulb" />
                             </div>
                         </div>
