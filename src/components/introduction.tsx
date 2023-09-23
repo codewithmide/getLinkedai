@@ -31,7 +31,7 @@ const Introduction:React.FC = () => {
                 {/* Right side of the screen */}
                 <div className="lg:w-1/2 w-full">
                     <div className="flex lg:items-start items-center relative w-full ">
-                        <h1 className="font-bold clash md:text-lg text-[20px] md:w-[400px] w-[249px] lg:text-left text-center">
+                        <h1 className="font-bold clash md:text-lg text-[20px] md:w-[400px] w-[249px] lg:text-left text-center lg:mx-0 mx-auto">
                             Introduction to getlinked <span className="text-purple">tech Hackathon 1.0</span>
                         </h1>
                         <div className="absolute -right-3">
