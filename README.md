@@ -4,7 +4,7 @@
 
 ## Overview
 
-GetLinkedAI is a place where **Dreams Meet Opportunities** for a Perfect Match!. It helps with connecting exceptional talents with forward-thinking employers, and it offers a harmonious synergy that breeds success. You can [access the hackathon challenge live demo here](https://get-linkedai.vercel.app/) or explore the [GitHub repository](https://github.com/codewithmide/getLinkedai) for more details.
+GetLinkedAI is a place where **Dreams Meet Opportunities** for a Perfect Match!. It helps with connecting exceptional talents with forward-thinking employers, and it offers a harmonious synergy that breeds success. You can [access the hackathon live demo here](https://get-linkedai.vercel.app/) or explore the [GitHub repository](https://github.com/codewithmide/getLinkedai) for more details about the challenge.
 
 ## Table of Contents
 
@@ -18,11 +18,11 @@ GetLinkedAI is a place where **Dreams Meet Opportunities** for a Perfect Match!.
 
 ## Challenges
 
-During the development of GetLinkedAI, I encountered several challenges related to the use of various technologies and tools. These challenges included:
+During the development of the web application, I encountered several challenges related to the use of various technologies and tools. These challenges included:
 
 - **Integrating Formik and Yup:** Incorporating Formik and Yup for form management and validation posed an initial learning curve. I needed to understand how to seamlessly integrate these libraries into my project.
 
-- **Styling with Tailwind CSS:** Enhancing the user interface and achieving a polished design with Tailwind CSS required me to improve my CSS skills. Customizing the styles to align with my vision was a challenge.
+- **Styling with Tailwind CSS:** Enhancing the user interface and achieving a polished design with Tailwind CSS required me to improve my CSS skills. Customizing the styles to align with the design was a challenge.
 
 - **Data Handling with Axios:** Efficiently handling data requests and responses using Axios required careful implementation, error handling, and optimization.
 
@@ -32,21 +32,19 @@ I overcame these challenges by:
 
 - **CSS Practice:** I dedicated time to practicing and improving my CSS skills, experimenting with Tailwind CSS's utility classes, and referring to Tailwind CSS documentation and tutorials.
 
-- **Code Reviews and Collaborative Problem-Solving:** Collaborative code reviews and brainstorming sessions with mentors and peers helped address specific challenges. We shared knowledge and solutions, which significantly improved my development process.
 
 ## Lessons Learned
 
-Working on GetLinkedAI provided me with valuable lessons and insights, including:
+Working on GetLinkedAI hackathon challenge provided me with valuable lessons and insights, including:
 
 - **Improved CSS Skills:** I significantly improved my CSS skills, mastering the art of designing visually appealing user interfaces with Tailwind CSS.
 
 - **Effective Library Integration:** I learned the importance of in-depth library exploration and proper integration, which enhanced my project's overall quality and efficiency.
-
-- **Collaborative Development:** Collaborative problem-solving and teamwork played a crucial role in overcoming challenges and achieving project goals.
+  
 
 ## Technologies Used
 
-GetLinkedAI is built using various technologies and libraries, each serving a specific purpose:
+The application is built using various technologies and libraries, each serving a specific purpose:
 
 - **Next.js:** I used Next.js as the front-end framework for building a server-rendered React application. It simplifies routing and provides excellent SEO capabilities.
 
@@ -62,7 +60,9 @@ GetLinkedAI is built using various technologies and libraries, each serving a sp
 
 ## Getting Started
 
-To run GetLinkedAI locally, follow these steps:
+To run the app locally, follow these steps:
+
+
 
 1. Clone the repository:
    ```bash
