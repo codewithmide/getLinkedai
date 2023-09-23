@@ -2,12 +2,14 @@
 
 import React, { useState } from "react"
 import CustomInput from "@/components/InputField/page";
+import Link from "next/link";
 import CustomSelect from "@/components/selectField/page";
 import { RegisterTypes } from "../types/registerTypes";
 import { baseUrl } from "@/lib/request";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { toast } from "react-hot-toast";
+import CustomButton from "@/components/Button/button";
 
 /* eslint-disable @next/next/no-img-element */
 const RegisterComp = () => {
@@ -55,7 +57,6 @@ const RegisterComp = () => {
     const registerRequest = async (data: RegisterTypes) => {
         try {
           const response = await baseUrl.post("/hackathon/registration", data);
-          console.log(response.data);
         } catch (error) {
           throw error;
         }
@@ -66,7 +67,7 @@ const RegisterComp = () => {
           if (error.message === "Network Error") {
             toast.error(error.message);
           } else {
-            toast.success("You have successfully registered");
+            console.error(error);
           }
         } else {
           console.error("An unexpected error occurred:", error);
@@ -87,12 +88,13 @@ const RegisterComp = () => {
         formik.resetForm();
         setTimeout(() => {
           toast.success("You have successfully registered");
+          setFormSuccess(!formSuccess);
         }, 1000);
     };
 
     return (
         <div className="w-full center relative overflow-hidden">
-            <div className="w-[90%] md:my-16 my-10 center flex-col lg:flex-row z-10">
+            <div className="w-[90%] md:my-16 py-10 center flex-col lg:flex-row z-10">
                 <div className="lg:w-1/2 h-full relative">
                     <img src="/images/contact.png" alt="contact person" className="" />
                     {/* stars */}
@@ -248,6 +250,27 @@ const RegisterComp = () => {
             <div className="absolute bottom-0 right-0 lg:flex hidden">
                 <img src="/images/registerFlare2.png" alt="purple flare" className="purpleFlare1" />
             </div>
+
+            {formSuccess && (
+                <div className="absolute py-20 top-0 right-0 bottom-0 w-screen min-h-screen center z-50 successBg">
+                    <div className="lg:w-[60%] w-[90%] flex-col gap-8 lg:gap-10 center py-20 success">
+                        <div>
+                            <img src="/images/success.png" alt="success" />
+                        </div>
+                        <div className="w-[80%] center gap-4 flex-col flex">
+                            <h2 className="md:text-lg text-center lg:w-[80%] font-semibold">
+                                Congratulations you have successfully Registered!
+                            </h2>
+                            <p className="lg:text-[14px] text-center text-sm lg:w-[60%]">
+                                Yes, it was easy and you did it! check your mail box for next step🤪
+                            </p>
+                        </div>
+                        <Link href="/" className="">
+                            <CustomButton label="Back" onClick={() => {}} />
+                        </Link>
+                    </div>
+                </div>
+            )}
         </div>
     );
 }
